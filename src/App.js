@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
       <Weather defaultCity="New York" />
-      <footer>This project was coded by Mbali Puso and is open-sourced on Github</footer>
+      <footer>This project was coded by Mbali Puso and is <a href="https://github.com/MbaliPuso/my-project" target="_blank" rel="noopener noreferrer">open-sourced on Github</a>{" "} and hosted on {" "}<a href="https://lively-sunshine-0e1301.netlify.app/" target="_blank" rel="noopener noreferrer">Netlify</a></footer>
       </div>
     </div>
   );
